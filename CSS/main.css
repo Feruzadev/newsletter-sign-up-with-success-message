@@ -113,6 +113,8 @@ ul {
     font-size: 16px;
     font-weight: 700;
     line-height: 150%; /* 24px */
+    margin-top: 50px;
+    cursor: pointer;
 
     }
 .component-card__section2 {
@@ -120,6 +122,36 @@ ul {
     position: relative;
     }
 .component-card__rectangle__img {
+    position: relative;
+    background-image: url("../img/Rectangle\ Copy\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 593px;
     }
-.rectangle__image {
-    }
+.foto_1{
+    position: absolute;
+    top: 115px;
+    left: 97px;
+    z-index: 10;
+}
+.foto_2{
+    position: absolute;
+    top: 211px;
+    left: 0px;
+}
+.foto_3 {
+    position: absolute;
+    top: 93px;
+    right: 56px;
+    z-index: 11;
+}
+.foto_4 {
+    position: absolute;
+    top: 240px;
+    right: 0;
+    z-index: 11;
+
+}
+    
